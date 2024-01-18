@@ -1,4 +1,5 @@
-#include "monty.h"
+#ifndef "monty.h"
+#define "monty.h"
 /**
  * f_mod - computes the rest of the division of the 2nd
  * top element of the stack by the top element of the stack
@@ -39,3 +40,5 @@ void f_mod(stack_t **head, unsigned int counter)
 	*head = h->next;
 	free(h);
 }
+#endif /* "monty_h" *
+	
