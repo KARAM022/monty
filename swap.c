@@ -1,4 +1,5 @@
-#include "monty.h"
+#ifndef "monty.h"
+#define "monty.h"
 /**
  * f_swap - adds the top 2 elements of the stack.
  * @head: stack head
@@ -29,3 +30,5 @@ void f_swap(stack_t **head, unsigned int counter)
 	h->n = h->next->n;
 	h->next->n = aux;
 }
+#endif /* "monty_h" *
+	
