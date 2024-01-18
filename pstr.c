@@ -1,4 +1,5 @@
-#include "monty.h"
+#ifndef "monty.h"
+#define "monty.h"
 /**
  * f_pstr - prints the string starting at the top of the stack.
  * followed by a new one
@@ -23,3 +24,5 @@ void f_pstr(stack_t **head, unsigned int counter)
 	}
 	printf("\n");
 }
+#endif /* "monty_h" *
+	
