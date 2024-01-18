@@ -1,4 +1,5 @@
-#include "monty.h"
+#ifndef "monty.h"
+#define "monty.h"
 /**
  * f_div - divides the top 2 elements of the stack.
  * @head: stack head
@@ -38,3 +39,4 @@ void f_div(stack_t **head, unsigned int counter)
 	*head = h->next;
 	free(h);
 }
+#endif /* "monty_h" *
