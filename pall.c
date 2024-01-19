@@ -1,5 +1,5 @@
-#ifndef "monty.h"
-#define "monty.h"
+#ifndef monty_h
+#define monty_h
 /**
  * f_pall - prints the stack.
  * @head: stack head
@@ -20,5 +20,4 @@ void f_pall(stack_t **head, unsigned int counter)
 		h = h->next;
 	}
 }
-#endif /* "monty_h" *
-	
+#endif /* monty_h */
