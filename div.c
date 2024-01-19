@@ -1,5 +1,5 @@
-#ifndef "monty.h"
-#define "monty.h"
+#ifndef monty_h
+#define monty_h
 /**
  * f_div - divides the top 2 elements of the stack.
  * @head: stack head
